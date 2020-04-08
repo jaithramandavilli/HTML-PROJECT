@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>navigation bar</title>
+<style>
+    *{
+        margin: 0px;
+    }
+      body{
+          
+           margin: 0px;
+      }
+      
+      div#nav>ul
+      {
+          margin: 0px;
+          padding:0px;
+          list-style: none;
+         
+          background-color:rgb(74, 196, 201);
+          
+      }
+      div#nav>ul >li
+      {
+         
+          float: left;
+          height: 120px;
+          width: 200px;
+      }
+      div#nav>ul::after
+      {
+          content:" ";
+        display: block;
+        clear: left;
+      }
+      div#nav >ul>li>a
+      {
+        margin-top: 50px;
+         text-decoration: none;
+          background-color:gray;
+          color: blanchedalmond;
+          display: inline-block;
+          height: 50px;
+          width: 200px;
+          text-align: center;
+          line-height: 50px;
+          padding: 5px;
+          
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      div#nav >ul>li>a:hover
+      {
+          background-color: blueviolet;
+      }
+      div#nav >ul>li:first-child
+      {
+        color: antiquewhite;
+        display: inline-block;
+          height: 50px;
+          width: 250px;
+          text-align: center;
+          line-height: 50px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 20px; 
+      }
+    
+</style>
+</head>
+<body style="background-image: url(pp3.jpg);">
+    <div id="nav">
+        <ul>
+            <li><img src="lpu-logo-300w.jpg"  alt="Smileyface" height="110" width="250" border="1px"></li>
+            <li><a href="umsnav.html">Ums Navigation</a></li>
+            <li><a href="importantlinks.html">Important links</a></li>
+            <li><a href="password-1.html">Change password</a></li>
+            <li><a href="#">LpuLive Web</a></li>
+            <li><a href="frame1.html"><img src="th.jpg"/><font size="3" color="red">&nbsp;HOME</font></a></li>
+            <li><a href="index.html"><img src="asd.jpg"/><font size="3" color="red" >&nbsp;logout</font></a></li>
+           
+        </ul>
+        
+    </div>
+  <div id="raj">
+<div id="top">
+    <iframe width="30%" height="500px" src="profile.html"frameborder="1" >
+        
+    </iframe>
+    
+    <iframe width="69%" height="450px" src="MONDAY.html" frameborder="0" scrolling=no >
+       
+        
+    </iframe>
+</div>
+<div id="middel">
+    <iframe width="30%"height="250px"src="if.html">
+      
+    </iframe>
+    <iframe width="69%" height="250px" src="attendance.html" frameborder="1">
+
+    </iframe>
+</div>
+<div id="bottum">
+    <iframe  frameborder="0px" width="30%"height="250px">
+        
+    </iframe>
+    <iframe frameborder="0px"width="69%" height="300px" src="mym.html">
+
+        
+    </iframe>
+</div>
+</div>
+</body>
+</html>

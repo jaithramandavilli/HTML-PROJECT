@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Learning forms</title>
+</head>
+<body bgcolor="cyan">
+<center>
+    <h1>DOCTORS APPOINMENT</h1>
+    <form name="frmDataEntry" action="hp1.html" method="post">
+        <p>Frist Name :</p>
+        <input type="text" name="txtUserName" id="txtUserName" placeholder="enter first name" />
+        <p>LastName :</p>
+        <input type="text" name="txtLastName" id="txtLastName" placeholder="enter Last name" />
+        <p>Gender :</p>
+        <input type="radio" name="rdbGender" id="rdbGender" checked value="m"/>Male<input type="radio" name="rdbGender" id="rdbGender" value="f" />Female
+        <p>CATEGORY :</p>
+        <input type="checkbox" />DENTIST<br/>
+        <input type="checkbox" />PATHOLOGIST<br/>
+        <input type="checkbox" />ENT<br/>
+        <input type="checkbox" />EYE SPACELIST<br/>
+        <p>CHOOSE SLOT:</p>
+        <select>
+            <option value="i">9am to 10 am</option>
+            <option value="ni">11am to 12pm</option>
+             <option value="ni">3pm to 4pm</option>
+             <option value="ni">5pm to 6pm</option>
+        </select>
+        <p>DESCRIPTION :</p>
+        <textarea rows="10" cols="40" wrap="soft"></textarea><br/>
+        <input type="submit" value="SUBMIT"/>
+        <input type="reset"/>
+    </form>
+</center>
+</body>
+</html>
